@@ -291,7 +291,7 @@ export default function Portfolio() {
                 >
                   <div className="w-full h-full rounded-full bg-white flex items-center justify-center overflow-hidden">
                     <img 
-                      src="/@assets/image_1755886630861.png" 
+                      src="/image_1755886630861.png" 
                       alt="Amrutha M"
                       className="w-full h-full object-cover rounded-full"
                       data-testid="hero-profile-image"
@@ -360,7 +360,7 @@ export default function Portfolio() {
             >
               <div className="w-full h-80 bg-gradient-to-br from-royal-blue-100 to-gold-100 rounded-xl flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/@assets/image_1755886630861.png" 
+                  src="/image_1755886630861.png" 
                   alt="Amrutha M - Professional Photo"
                   className="w-full h-full object-cover rounded-xl"
                   data-testid="about-profile-image"
@@ -869,7 +869,7 @@ export default function Portfolio() {
                 <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
                   <div className="w-full h-48 bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center overflow-hidden">
                     <img 
-                      src={`/@assets/${achievement.image}`} 
+                      src={`/${achievement.image}`} 
                       alt={achievement.title}
                       className="w-full h-full object-contain"
                       data-testid={`achievement-${index}-image`}
