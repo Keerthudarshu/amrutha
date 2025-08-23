@@ -358,12 +358,12 @@ export default function Portfolio() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <div className="w-full h-80 bg-gradient-to-br from-royal-blue-100 to-gold-100 rounded-xl flex items-center justify-center overflow-hidden">
+              <div className="w-full h-90 bg-gradient-to-br from-royal-blue-100 to-gold-100 rounded-xl flex items-center justify-center overflow-hidden">
                 <img 
                   src="/img/amrutha.jpg" 
                   alt="Amrutha M - Professional Photo"
-                  className="w-full h-full object-contain rounded-xl bg-white"
-                  style={{objectFit: 'contain'}}
+                  className="w-full h-auto min-h-[50rem] max-h-[65rem] object-cover rounded-xl bg-white"
+                  style={{objectFit: 'cover'}}
                   data-testid="about-profile-image"
                 />
               </div>
